@@ -6,6 +6,14 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "nodeModulesPath": "node_modules",
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "babelExclude": [
+        "./node_modules/*"
+      ]
+    },
+    "backgroundColor" : "#24180f",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
